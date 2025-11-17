@@ -1,0 +1,51 @@
+main {
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #627dff;
+    margin-bottom: 30px;
+}
+
+.casa {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.casa-logo {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.casa h3 {
+    font-size: 1.8em;
+    margin: 20px 0 10px;
+}
+
+.casa p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.casa h4,
+.casa ul {
+    text-align: left;
+    margin-right: auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+.casa ul {
+    padding-left: 0;
+    list-style-position: inside;
+}

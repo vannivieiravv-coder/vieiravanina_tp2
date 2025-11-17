@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: "trajan Pro", serif;
+    height: 100%;
+}
+
+header.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero-img {
+    max-width: 600px;
+    width: 90%;
+    display: block;
+    margin: 0;
+    padding: 0; 
+}
+
+main.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main.hero h1 {
+    font-size: 3em;
+    margin: 10px 0 10px 0;
+}
+
+main.hero p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+    font-size: 20px;
+    text-align: left;
+}
+

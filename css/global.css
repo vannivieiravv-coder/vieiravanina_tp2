@@ -1,0 +1,105 @@
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #627dff;
+}
+
+.navbar a.active {
+    color: #627dff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hbo-icono {
+    max-height: 40px;
+    transition: filter 0.3s ease;
+    filter: grayscale(1) brightness(0.8);
+    display: block;
+    margin: auto;
+}
+
+.icono.hbo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: "Georgia", serif;
+}
+
+.audio-player {
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #1f2746;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+.audio-cover {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.play-btn {
+    background-color: #4c5aa6;
+    border: none;
+    padding: 12px 18px;
+    font-size: 1.3em;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.play-btn:hover {
+    background-color: #627dff;
+    transform: scale(1.1);
+}
+
+.audio-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}

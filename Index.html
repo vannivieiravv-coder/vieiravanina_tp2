@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/global.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./Index.html" class="active">Inicio</a>
+        <a href="./Temporadas/temporada.html">Temporadas</a>
+        <a href="./Casas/Casas.html">Casas</a>
+        <a href="./Sobre/Sobre.html">Sobre la serie</a>
+        <a href="./404.html">Eventos</a>
+        <a href="./Contacto/Contacto.html">Contacto</a>
+    </nav>
+
+    <header class="hero">
+        <img src="./imagenes/trono de hierro.jpg" alt="Trono de Hierro" class="hero-img">
+    </header>
+
+    <main class="hero">
+        <h1>GAME OF THRONES</h1>
+        <p>
+            Game of Thrones es una de las series más exitosas de la historia de la televisión.
+            Basada en la saga <em>Canción de Hielo y Fuego</em> de George R. R. Martin,
+            narra la lucha por el Trono de Hierro, donde la ambición, la traición y la lealtad
+            definen el destino de los Siete Reinos.
+            En esta guía encontrarás un resumen atractivo de cada temporada para revivir
+            los momentos más épicos de la serie que marcó a millones de fans en todo el mundo.
+        </p>
+        <div class="audio-player">
+            <img src="./imagenes/intro.jpg" alt="GOT Intro" class="audio-cover">
+
+            <div class="audio-controls">
+                <button id="playBtn" class="play-btn">▶︎</button>
+                <span class="audio-title">Game of Thrones – Intro</span>
+            </div>
+
+            <audio id="audioTrack" src="./audio/intro.mp3"></audio>
+        </div>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/gameofthrones/?hl=es" target="_blank" class="icono hbo">
+                <img src="./imagenes/instagram.png" alt="Instagram" class="hbo-icono">
+            </a>
+            <a href="https://www.facebook.com/GameOfThrones" target="_blank" class="icono hbo">
+                <img src="./imagenes/facebook.png" alt="Facebook" class="hbo-icono">
+            </a>
+            <a href="https://x.com/GameOfThrones" target="_blank" class="icono hbo">
+                <img src="./imagenes/twitter.png" alt="Twitter" class="hbo-icono">
+            </a>
+            <a href="https://www.max.com/ar/es/shows/game-of-thrones/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac"
+                target="_blank" class="icono hbo">
+                <img src="./imagenes/hbo.png" alt="Hbo" class="hbo-icono">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        const audio = document.getElementById('audioTrack');
+        const playBtn = document.getElementById('playBtn');
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playBtn.textContent = "⏸";
+            } else {
+                audio.pause();
+                playBtn.textContent = "▶︎";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+
+main {
+    margin-top: 80px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#temporadas {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: #111;
+    border: 2px solid #627dff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin: 0;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.card a {
+    color: #4c6dff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.url {
+    font-size: 0.8em;
+    color: #aaa;
+}
+.card.full-width {
+    grid-column: span 2;
+}
+
+.card.full-width img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+

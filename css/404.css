@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../imagenes/404.jpeg") no-repeat center top/cover;
+    font-family: 'Georgia', serif;
+    color: #e4e9ff;
+    height: 100vh;
+
+    /* Move the text lower on the screen */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 140px; /* adjust how low you want the text */
+}
+
+.card {
+    /* REMOVE ALL BACKGROUND */
+    background: none;
+    box-shadow: none;
+    padding: 0;       /* no padding frame */
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-top: 5px;
+    color: #cdd6ff;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.btn-home {
+    margin-top: 35px;
+    padding: 12px 28px;
+    background-color: #123d7a;
+    border: 2px solid #d1d9ff;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #1c57ac;
+    transform: scale(1.05);
+}

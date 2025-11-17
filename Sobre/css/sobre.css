@@ -1,0 +1,23 @@
+.sobre-serie {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.sobre-serie h1, 
+.sobre-serie h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sobre-serie h2 {
+    color: #4c6dff;
+}
+
+.sobre-serie h3 {
+    margin-top: 25px;
+    font-size: 1.2em;
+    color: white;
+}
